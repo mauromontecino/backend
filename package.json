@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "handlebars": "^4.7.7",
+    "pug": "^3.0.2"
+  }
+}
