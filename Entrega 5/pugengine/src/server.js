@@ -6,7 +6,7 @@ const contenedor = new Contenedor("productos.json");
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.set("views", "./src/views");
+app.set("views", "./views");
 app.set("view engine", "pug");
 
 // GET /productos | Lista de productos
