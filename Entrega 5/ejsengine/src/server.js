@@ -6,7 +6,9 @@ const contenedor = new Contenedor("../productos.json");
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.set("views", "./views");
+const path = require("path");
+const VIEWFOLDER = path.join(__dirname, "views");
+app.set("views", VIEWFOLDER);
 app.set("view engine", "ejs");
 
 app.get("/productos", async (req, res) => {

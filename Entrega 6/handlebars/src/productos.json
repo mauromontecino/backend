@@ -1,0 +1,32 @@
+[
+  { "title": "Escuadra", "price": 75.66, "thumbnail": "someUrl.com", "id": 1 },
+  {
+    "title": "Calculadora",
+    "price": 72.66,
+    "thumbnail": "someUrl.com",
+    "id": 2
+  },
+  { "title": "Lapicera", "price": 100, "thumbnail": "someUrl.com", "id": 3 },
+  {
+    "title": "Cuaderno A4",
+    "price": 139.99,
+    "thumbnail": "someUrl.com",
+    "id": 4
+  },
+  {
+    "title": "Nuevo Producto",
+    "price": "123",
+    "thumbnail": "somenuevaurl",
+    "id": 5
+  },
+  { "title": "Otro", "price": "123", "thumbnail": "aaaaaa", "id": 6 },
+  { "title": "Otro1", "price": "123", "thumbnail": "bbbbbb", "id": 7 },
+  { "title": "Otro2", "price": "123", "thumbnail": "cccccc", "id": 8 },
+  { "title": "Otro3", "price": "123", "thumbnail": "dddddd", "id": 9 },
+  { "title": "Otro4", "price": "123", "thumbnail": "eeeeeee", "id": 10 },
+  { "title": "Otro5", "price": "123", "thumbnail": "ffffff", "id": 11 },
+  { "title": "Otro6", "price": "123", "thumbnail": "gggggg", "id": 12 },
+  { "title": "Otro7", "price": "123", "thumbnail": "hhhhhh", "id": 13 },
+  { "title": "Otro8", "price": "123", "thumbnail": "iiiiiiiiiii", "id": 14 },
+  { "title": "Otro9", "price": "123", "thumbnail": "jjjjjjjjjj", "id": 15 }
+]

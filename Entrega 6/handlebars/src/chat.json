@@ -1,0 +1,38 @@
+[
+  {
+    "email": "juan@gmail.com",
+    "message": "Hola!",
+    "date": "8/11/2022, 16:52:02 PM",
+    "id": 1
+  },
+  {
+    "email": "agus@gmail.com",
+    "message": "Hola! Qué estás haciendo?",
+    "date": "8/11/2022, 16:52:17 PM",
+    "id": 2
+  },
+  {
+    "email": "juan@gmail.com",
+    "message": "Estaba revisando esta API",
+    "date": "8/11/2022, 16:52:31 PM",
+    "id": 3
+  },
+  {
+    "email": "agus@gmail.com",
+    "message": "Genial, yo también!",
+    "date": "8/11/2022, 16:52:52 PM",
+    "id": 4
+  },
+  {
+    "email": "agus@gmail.com",
+    "message": "Avisame si necesitas ayuda con algo!",
+    "date": "8/11/2022, 16:52:59 PM",
+    "id": 5
+  },
+  {
+    "email": "juan@gmail.com",
+    "message": "Dale, cualquier cosa te aviso!",
+    "date": "8/11/2022, 16:53:10 PM",
+    "id": 6
+  }
+]
