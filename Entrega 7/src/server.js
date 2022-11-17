@@ -31,7 +31,7 @@ const routerCart = express.Router();
 app.use("/api/productos", routerProducts);
 app.use("/api/carrito", routerCart);
 
-/* ------------------------ Product Endpoints ------------------------ */
+/* --- Product Endpoints --- */
 
 // GET api/productos
 routerProducts.get("/", async (req, res) => {
@@ -87,7 +87,7 @@ routerProducts.delete("/:id", authMiddleware, async (req, res, next) => {
     : res.status(404).json({ error: "product not found" });
 });
 
-/* ------------------------ Cart Endpoints ------------------------ */
+/* --- Cart Endpoints --- */
 
 // POST /api/carrito
 
@@ -162,7 +162,7 @@ routerCart.delete("/:id/productos/:id_prod", async (req, res) => {
   }
 });
 
-const PORT = 8020;
+const PORT = 8080;
 const server = app.listen(PORT, () => {
   console.log(` >>>>> 🚀 Server started at http://localhost:${PORT}`);
 });
