@@ -93,7 +93,7 @@ class Contenedor {
           const index = parsedData.indexOf(objectIdToBeUpdated);
           newData.id = objectIdToBeUpdated.id;
           newData.timestamp = objectIdToBeUpdated.timestamp;
-          const objKey = Object.keys(newData);
+          const objKey = Object.keys(objectIdToBeUpdated);
           objKey.forEach((key) => {
             parsedData[index][key] = newData[key];
           });
