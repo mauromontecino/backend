@@ -1,4 +1,5 @@
 const fs = require("fs");
+const objKey = Object.keys(newData);
 
 class Contenedor {
   constructor(fileName, keys) {
@@ -8,11 +9,10 @@ class Contenedor {
   }
 
   _validateKeysExist(newData) {
-    const objectKeys = Object.keys(newData);
     let exists = true;
 
-    objectKeys.forEach((key) => {
-      if (!this._keys.includes(key)) {
+    objKey.forEach((key) => {
+      if (this._keys.includes(key)) {
         exists = false;
       }
     });
@@ -93,7 +93,7 @@ class Contenedor {
           const index = parsedData.indexOf(objectIdToBeUpdated);
           newData.id = objectIdToBeUpdated.id;
           newData.timestamp = objectIdToBeUpdated.timestamp;
-          objectKeys.forEach((key) => {
+          objKey.forEach((key) => {
             parsedData[index][key] = newData[key];
           });
 
