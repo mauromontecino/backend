@@ -162,7 +162,7 @@ routerCart.delete("/:id/productos/:id_prod", async (req, res) => {
   }
 });
 
-const PORT = 8080;
+const PORT = 1234;
 const server = app.listen(PORT, () => {
   console.log(` >>>>> 🚀 Server started at http://localhost:${PORT}`);
 });
